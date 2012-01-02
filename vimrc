@@ -1,4 +1,5 @@
 call pathogen#infect()		      " Plugin management system.
+call pathogen#helptags()	      " Needed by Command-T
 
 syntax on			      " Turn on syntax highlighting.
 filetype plugin indent on	      " Turn on filetype detection.
@@ -27,5 +28,3 @@ let g:bufExplorerShowRelativePath=1   " Buffer Explorer - Show relative paths.
 
 :let mapleader = ","		      " Lets use a better character for leader
 
-"MAP
-map <leader>t :FuzzyFinderTextMate<CR>
