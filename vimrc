@@ -33,6 +33,8 @@ set incsearch			      " Highlight as you search.
 set ignorecase			      " Case-insensitive searching
 set smartcase			      " But Case sensitive if expression contains capital letters.
 
+let g:netrw_dirhistmax=0              " Disable history file.
+
 "Plugin Settings
 let g:bufExplorerShowRelativePath=1   " Buffer Explorer - Show relative paths.
 
